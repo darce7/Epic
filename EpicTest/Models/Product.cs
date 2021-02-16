@@ -13,7 +13,7 @@ namespace EpicTest.Models
 
         public string Class {
             get {
-                if (Quantity > 2)
+                if (Quantity > 3)
                 {
                     return "greaterThanThree";
                 }
